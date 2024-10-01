@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concerto de Celular</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon_io11 (1).zip">
+</head>
+<body>
+   
+    <header>
+        <h1>COMPRE AQUI SEU NOVO IPHONE</h1>
+        
+    </header>
+
+    
+    <main>
+        <section class="produto-detalhes">
+            <div class="imagem-principal">
+                <img id="mainImage" src="favicon_io333 (1)/apple-touch-icon.png" alt="Imagem do Serviço">
+            </div>
+            <div class="miniaturas">
+                <img src="miniatura/1.png" alt="Miniatura 1" onclick="trocarImagem('imagens/celular1.jpg')">
+                <img src="miniatura/2.png" alt="Miniatura 2" onclick="trocarImagem('imagens/celular2.jpg')">
+                <img src="miniatura/3.png" alt="Miniatura 3" onclick="trocarImagem('imagens/celular3.jpg')">
+            </div>
+
+            <div class="detalhes-produto">
+                <h2>IPHONE 16 (LANÇAMENTO) </h2>
+                <p class="descricao">ENTREGAMOS COM A CAIXA LACRADA</p>
+                <p class="preco">R$ 8.000</p>
+
+                <div class="selecao-opcoes">
+                    <label for="tamanho">Tamanho:</label>
+                    <select id="tamanho">
+                        <option value="p">Pequeno</option>
+                        <option value="m">Médio</option>
+                        <option value="g">Grande</option>
+                    </select>
+
+                    <label for="cor">Cor:</label>
+                    <select id="cor">
+                        <option value="preto">Preto</option>
+                        <option value="branco">Branco</option>
+                        <option value="azul">Azul</option>
+                    </select>
+                </div>
+
+                <button class="botao-comprar">Solicitar Serviço</button>
+            </div>
+        </section>
+
+        <!-- Seção de Comentários -->
+        <section class="comentarios">
+            <h3>Comentários de Clientes</h3>
+
+            <div class="comentario">
+                <img src="pessoa/img2.png" alt="Foto do Usuário">
+                <p>"Recomendo super a empresa!" - Camila Silva</p>
+            </div>
+
+            <div class="comentario">
+                <img src="pessoa/pessoa1.png"Foto do Usuário">
+                <p>"Otima qualidade dos produtos!" - Fernando Cardoso</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 Loja de iphones. APENAS COM PRODUTOS ORIGINAIS</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
